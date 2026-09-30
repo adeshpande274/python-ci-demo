@@ -5,7 +5,7 @@ from calculator import calculate_total
 
 class CalculateTotalTests(unittest.TestCase):
     def test_adds_tax(self):
-        self.assertEqual(calculate_total(100, 18), 119.00)
+        self.assertEqual(calculate_total(100, 18), 118.00)
 
     def test_rounds_to_two_decimal_places(self):
         self.assertEqual(calculate_total(12.51, 5), 13.14)
